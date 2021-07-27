@@ -132,6 +132,7 @@ New XML String:
 
 File was saved at: newfile.xml
 ```
+
 Here we have an implementation capable of
 
 1.  Loading XML Files
