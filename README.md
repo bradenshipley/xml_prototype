@@ -25,7 +25,7 @@ Pros:
 It's important to note that we are converting XML to standard Javascript objects here, but converting to JSON is also possible, with no added complexity.
 
 Example implementation:
-```
+```js
 import * as convert from 'xml-js';
 import * as fs from 'fs';
 import * as path from 'path';
