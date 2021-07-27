@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="test_api_claims">
+    <Basepaths>/test_api_claims</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1626704817837</CreatedAt>
+    <CreatedBy>johanna@adhocteam.us</CreatedBy>
+    <Description>proxy test</Description>
+    <DisplayName>test_api_claims</DisplayName>
+    <LastModifiedAt>1626704817837</LastModifiedAt>
+    <LastModifiedBy>johanna@adhocteam.us</LastModifiedBy>
+    <ManifestVersion>SHA-512:f5c5da02495dce93879f1bede6e51c2a481953f88a593845376736d2a76d45b1666a3e9e0bfb2b1ab67acf63a189d1e4b9ab4bfbcf8177e472f8e82094100d32</ManifestVersion>
+    <Policies>
+        <Policy>impose-quota</Policy>
+        <Policy>remove-query-param-apikey</Policy>
+        <Policy>verify-api-key</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
